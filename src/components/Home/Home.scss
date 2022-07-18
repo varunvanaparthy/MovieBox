@@ -1,0 +1,27 @@
+@import "../../common/colors.scss";
+
+#button {
+    background-color: $primary-color;
+    cursor : pointer;
+    margin: 2%;
+    border-color: $primary-color;
+}
+
+#button img {
+    height : 0.75cm;
+}
+
+#searchBar {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#searchBox {
+    height : 1cm;
+    width : 10cm;
+    padding : 1%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+

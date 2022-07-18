@@ -1,0 +1,18 @@
+@import "../../common/colors.scss";
+.footer {
+  background: $footer-color;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $font-primary;
+  flex-direction: column;
+}
+
+#name {
+  font-family: 'Poiret One', cursive;
+}
+
+#caption {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
