@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app" style={{ backgroundImage: `url(${bgimage})`}}>
       <Favicon url={icon}></Favicon>
-      <Router>
+      <Router basename="/MovieBox">
         <Header />
         <div className="container">
           <Routes>
